@@ -11,7 +11,3 @@ app = FastAPI()
 @app.get("/")
 def root():
     return {"message": "Página de inicio"}
-
-@app.get("/")
-def root():
-    return {"message": "Página de inicio"}
